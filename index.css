@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background: #202123;
+}
+
+#mainDiv {
+    width: 550px;
+    height: 729px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#inputContainer {
+    width: 550px;
+    height: 285px;
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#calcContainer {
+    width: 550px;
+    height: 444px;
+    margin-top: 0px;
+    background: #F4F4F4;
+
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -0.84px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #5A537B;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+p {
+    color: #353535;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+input {
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24.393px;
+    background: none;
+    margin-bottom: 26px;
+    margin-top: 30px;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+ 
+}
+
+button {
+    width: 124px;
+    height: 42px;
+    display: inline-flex;
+    padding: 9px 27.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #FFF;
+    border: 2px #FFFFFF;
+    box-shadow: none;
+    margin-bottom: 25px;
+}
+
+#calcContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.calcEl {
+    width: 500px;
+    height: 108px;
+    background: white;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
